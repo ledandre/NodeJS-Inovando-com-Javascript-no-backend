@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cadastrar livro</title>
+	</head>
+	<body>
+		<form action="/produtos" method="post">
+			<div>
+				<label for="titulo">Título</label>
+				<input type="text" name="titulo" placeholder="coloque o título do livro aqui"/>
+			</div>
+			<div>
+				<label for="preco">Preço</label>
+				<input type="text" name="preco" placeholder="coloque o preço do livro aqui"/>
+			</div>
+			<div>
+				<label for="descricao">Descrição</label>
+				<textarea name="descricao" placeholder="fale sobre o livro" cols="50" rows="10"></textarea>
+			</div>
+
+			<input type="submit" value="gravar"/>
+		</form>
+	</body>
+</html>
